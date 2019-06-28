@@ -27,15 +27,25 @@ while True:
     imgL = cv.cvtColor(frame1, cv.COLOR_BGR2GRAY)
     imgR = cv.cvtColor(frame2, cv.COLOR_BGR2GRAY)
 
-    stereo = cv.StereoBM_create(numDisparities=16, blockSize=15)
+    stereo = cv.StereoBM_create(numDisparities=16, blockSize=7)
     #####################################################################
-    disparity = stereo.compute(imgL, imgR).astype(np.float32) / 16.0
+    disparity = stereo.compute(imgL, imgR).astype(np.float32)
     #plt.imshow(disparity)
     #plt.show()
 
-    cv.imshow('Frame-1', frame1)
-    cv.imshow('Frame-2', frame2)
+    cv.imshow('camera-1', frame1)
+    cv.moveWindow("camera-1", 1300, 0);
+    cv.imshow('camera-2', frame2)
+    cv.moveWindow("camera-2", 680, 0);
     cv.imshow('Disparity', disparity)
+    cv.moveWindow("Disparity", 1300, 550)
+    #cv.applyColorMap(cv.CV_8UC1(disparity), cv.COLORMAP_JET)
+    DEPTH_VISUALIZATION_SCALE = 1500
+    cv.imshow('depth', disparity / DEPTH_VISUALIZATION_SCALE)
+    cv.moveWindow("depth", 680, 550)
+
+
+
 
     keyboard = cv.waitKey(30)
     if keyboard == 'q' or keyboard == 27:
@@ -46,4 +56,4 @@ cv.destroyAllWindows()
 capture1.release()
 capture2.release()
 #except:
-#    print("error")
+#print("error")
