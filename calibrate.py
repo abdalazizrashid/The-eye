@@ -20,7 +20,7 @@ OPTIMIZE_ALPHA = 0.25
 TERMINATION_CRITERIA = (cv2.TERM_CRITERIA_EPS | cv2.TERM_CRITERIA_MAX_ITER, 30,
         0.001)
 
-MAX_IMAGES = 64
+MAX_IMAGES = 1000
 
 if len(sys.argv) != 4:
     print("Syntax: {0} LEFT_IMAGE_DIR RIGHT_IMAGE_DIR OUTPUT_FILENAME"
@@ -33,13 +33,13 @@ outputFile = sys.argv[3]
 
 def readImagesAndFindChessboards(imageDirectory):
     cacheFile = "{0}/chessboards.npz".format(imageDirectory)
-    #try:
-    #    cache = np.load(cacheFile)
-    #    print("Loading image data from cache file at {0}".format(cacheFile))
-    #    return (list(cache["filenames"]), list(cache["objectPoints"]),
-    #            list(cache["imagePoints"]), tuple(cache["imageSize"]))
-    #except IOError:
-    #    print("Cache file at {0} not found".format(cacheFile))
+    try:
+        cache = np.load(cacheFile)
+        print("Loading image data from cache file at {0}".format(cacheFile))
+        return (list(cache["filenames"]), list(cache["objectPoints"]),
+                list(cache["imagePoints"]), tuple(cache["imageSize"]))
+    except IOError:
+        print("Cache file at {0} not found".format(cacheFile))
 
     print("Reading images at {0}".format(imageDirectory))
     imagePaths = glob.glob("{0}/*.jpg".format(imageDirectory))

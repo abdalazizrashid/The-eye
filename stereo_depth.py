@@ -48,12 +48,12 @@ def cropHorizontal(image):
 # TODO: Try applying brightness/contrast/gamma adjustments to the images
 stereoMatcher = cv2.StereoBM_create()
 stereoMatcher.setMinDisparity(4)
-stereoMatcher.setNumDisparities(128)
-stereoMatcher.setBlockSize(21)
+stereoMatcher.setNumDisparities(128)  #128
+stereoMatcher.setBlockSize(21)  #21
 stereoMatcher.setROI1(leftROI)
 stereoMatcher.setROI2(rightROI)
-stereoMatcher.setSpeckleRange(16)
-stereoMatcher.setSpeckleWindowSize(45)
+stereoMatcher.setSpeckleRange(16)  #16
+stereoMatcher.setSpeckleWindowSize(45)  #45
 
 # Grab both frames first, then retrieve to minimize latency between cameras
 while(True):
@@ -82,10 +82,17 @@ while(True):
     grayLeft = cv2.cvtColor(fixedLeft, cv2.COLOR_BGR2GRAY)
     grayRight = cv2.cvtColor(fixedRight, cv2.COLOR_BGR2GRAY)
     depth = stereoMatcher.compute(grayLeft, grayRight)
-
     cv2.imshow('left', fixedLeft)
     cv2.imshow('right', fixedRight)
-    cv2.imshow('depth', depth / DEPTH_VISUALIZATION_SCALE)
+   # cv2.imshow('depth', depth / DEPTH_VISUALIZATION_SCALE)
+    arr = np.uint8(depth)
+    imC = cv2.applyColorMap(arr, cv2.COLORMAP_JET)
+    cv2.imshow('colored', imC)
+
+
+
+
+
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
 
