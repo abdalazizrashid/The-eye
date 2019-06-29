@@ -7,8 +7,8 @@ CAMERA_WIDTH = 1280
 CAMERA_HEIGHT = 720
 
 # TODO: Use more stable identifiers
-left = cv2.VideoCapture(8)
-right = cv2.VideoCapture(11)
+left = cv2.VideoCapture(6)
+right = cv2.VideoCapture(4)
 
 # Increase the resolution
 left.set(cv2.CAP_PROP_FRAME_WIDTH, CAMERA_WIDTH)
@@ -50,7 +50,7 @@ while(True):
         break
 
     frameId += 1
-    time.sleep(0.01)
+    #time.sleep(1)
 
 left.release()
 right.release()

@@ -6,7 +6,7 @@ import sys
 import numpy as np
 import cv2
 
-CHESSBOARD_SIZE = (10, 7)
+CHESSBOARD_SIZE = (9, 6)
 CHESSBOARD_OPTIONS = (cv2.CALIB_CB_ADAPTIVE_THRESH |
         cv2.CALIB_CB_NORMALIZE_IMAGE | cv2.CALIB_CB_FAST_CHECK)
 
@@ -33,13 +33,13 @@ outputFile = sys.argv[3]
 
 def readImagesAndFindChessboards(imageDirectory):
     cacheFile = "{0}/chessboards.npz".format(imageDirectory)
-    try:
-        cache = np.load(cacheFile)
-        print("Loading image data from cache file at {0}".format(cacheFile))
-        return (list(cache["filenames"]), list(cache["objectPoints"]),
-                list(cache["imagePoints"]), tuple(cache["imageSize"]))
-    except IOError:
-        print("Cache file at {0} not found".format(cacheFile))
+    #try:
+    #    cache = np.load(cacheFile)
+    #    print("Loading image data from cache file at {0}".format(cacheFile))
+    #    return (list(cache["filenames"]), list(cache["objectPoints"]),
+    #            list(cache["imagePoints"]), tuple(cache["imageSize"]))
+    #except IOError:
+    #    print("Cache file at {0} not found".format(cacheFile))
 
     print("Reading images at {0}".format(imageDirectory))
     imagePaths = glob.glob("{0}/*.jpg".format(imageDirectory))
@@ -61,7 +61,7 @@ def readImagesAndFindChessboards(imageDirectory):
         imageSize = newSize
 
         hasCorners, corners = cv2.findChessboardCorners(grayImage,
-                CHESSBOARD_SIZE, cv2.CALIB_CB_FAST_CHECK)
+                CHESSBOARD_SIZE, flags = cv2.CALIB_CB_ADAPTIVE_THRESH+cv2.CALIB_CB_NORMALIZE_IMAGE )
 
         if hasCorners:
             filenames.append(os.path.basename(imagePath))
