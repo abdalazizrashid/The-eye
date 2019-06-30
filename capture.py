@@ -7,7 +7,7 @@ CAMERA_WIDTH = 1280
 CAMERA_HEIGHT = 720
 
 # TODO: Use more stable identifiers
-left = cv2.VideoCapture(6)
+left = cv2.VideoCapture(8)
 right = cv2.VideoCapture(4)
 
 # Increase the resolution
