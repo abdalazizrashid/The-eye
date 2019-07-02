@@ -18,7 +18,7 @@ images in the left / right folder must be stored with the same relative order.
 (calling them 0.png, 1.png, ... might be a good idea)'''
 
 print("Starting Calibration")
-# c.calibrate()
+c.calibrate()
 print("Calibration Completed\n")
 
 '''
@@ -33,8 +33,8 @@ from_camera parameters:
 print("Starting Remap Procedure")
 
 # TODO: CHECK THAT THESE WORK PROPERLY
-# c.remap_from_capture(count=1, l_camera_port=0, r_camera_port=2)
-# c.remap_from_path(path='./results/original')
+#c.remap_from_capture(count=1, l_camera_port=0, r_camera_port=2)
+c.remap_from_path(path='./results/original')
 
 print("Starting Remap Completed\n")
 
@@ -71,15 +71,15 @@ disparities outputted from that class
 '''
 
 print("Starting Depth Map Calculation")
-model3D_matrix = rd.generate_depth_map(disparity)
+#model3D_matrix = rd.generate_depth_map(disparity)
 print("Depth Map Calculation completed\n")
 
 print("Starting Conversion to PLY")
-rd.convert_to_ply(disparity=disparity, name=name, image_path=path_r, cmp_range=70)
+#rd.convert_to_ply(disparity=disparity, name=name, image_path=path_r, cmp_range=70)
 print("Conversion to PLY Completed\n")
 
 print("Starting Model Visualization")
-rd.visualize_model('ply/' + str(name) + '.ply')
+#rd.visualize_model('ply/' + str(name) + '.ply')
 
 
 

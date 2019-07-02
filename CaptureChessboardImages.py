@@ -2,24 +2,24 @@ import time
 import cv2
 
 
-MAX_FRAMES_CHECKBOARD = 20
+MAX_FRAMES_CHECKBOARD = 40
 
 chessboardCaptured = 0
 
-left_camera_port = 0
-right_camera_port = 1
+left_camera_port = 4
+right_camera_port = 6
 
 left_camera = cv2.VideoCapture(left_camera_port)
-time.sleep(0.5)
+time.sleep(0)
 right_camera = cv2.VideoCapture(right_camera_port)
-time.sleep(0.5)
+time.sleep(0)
 
 # chessboard image capturing cycle
 while chessboardCaptured != MAX_FRAMES_CHECKBOARD:
 
-    cv2.waitKey(2000)
+    #cv2.waitKey(0.01)
     print('STAND STILL')
-    cv2.waitKey(1000)
+    #cv2.waitKey(0.01)
 
     # Capturing image from camera
     left_return_value, leftImage = left_camera.read()
@@ -41,7 +41,7 @@ while chessboardCaptured != MAX_FRAMES_CHECKBOARD:
         cv2.imwrite("./calibration/left/" + str(chessboardCaptured) + ".png", leftImage)
         cv2.imwrite("./calibration/right/" + str(chessboardCaptured) + ".png", rightImage)
 
-        cv2.waitKey(1000)
+        #cv2.waitKey(0.01)
         chessboardCaptured = chessboardCaptured + 1
         print("OK, " + str(MAX_FRAMES_CHECKBOARD - chessboardCaptured) + " more images needed")
     else:
