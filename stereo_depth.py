@@ -19,13 +19,13 @@ leftROI = tuple(calibration["leftROI"])
 rightMapX = calibration["rightMapX"]
 rightMapY = calibration["rightMapY"]
 rightROI = tuple(calibration["rightROI"])
-
+#print(imageSize, leftMapX, leftMapY, leftROI, rightMapX, rightMapY, rightROI)
 CAMERA_WIDTH = 1280
 CAMERA_HEIGHT = 720
 
 # TODO: Use more stable identifiers
-left = cv2.VideoCapture(4)
-right = cv2.VideoCapture(8)
+left = cv2.VideoCapture(6)
+right = cv2.VideoCapture(0)
 
 # Increase the resolution
 left.set(cv2.CAP_PROP_FRAME_WIDTH, CAMERA_WIDTH)
@@ -58,7 +58,7 @@ def cropHorizontal(image):
 
 
 # Create StereoSGBM and prepare all parameters
-window_size = 5
+window_size = 11 #5
 min_disp = 2
 num_disp = 130-min_disp
 stereoMatcher = cv2.StereoSGBM_create(minDisparity = min_disp,
@@ -147,11 +147,20 @@ while(True):
     dispc = (closing - closing.min()) * 255
     dispC = dispc.astype(
         np.uint8)  # Convert the type of the matrix from float32 to uint8, this way you can show the results with the function cv2.imshow()
-    disp_Color = cv2.applyColorMap(dispC, cv2.COLORMAP_OCEAN)  # Change the Color of the Picture into an Ocean Color_Map
+    disp_Color = cv2.applyColorMap(dispC, cv2.COLORMAP_JET)  # Change the Color of the Picture into an Ocean Color_Map
     filt_Color = cv2.applyColorMap(filteredImg, cv2.COLORMAP_JET)
 
-    cv2.imshow('Filtered Color Depth', filt_Color)
-
+    #cv2.imshow('Filtered Color Depth', filt_Color)
+    ####################################################################################################################
+    #points = cv2.camera_pair.get_point_cloud(rectified_pair)
+    #points = points.filter_infinity()
+    #points.write_ply(args.output)
+   # """Get 3D point cloud from image pair."""
+   # disparity = depth.block_matcher.get_disparity()
+   # points = depth.block_matcher.get_3d(disparity, depth
+   #                                     .calibration.disp_to_depth_mat)
+   # colors = cv2.cvtColor(pair[0], cv2.COLOR_BGR2RGB)
+   # cv2.PointCloud(points, colors)
 
 
     if cv2.waitKey(1) & 0xFF == ord('q'):
