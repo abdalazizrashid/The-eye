@@ -18,7 +18,7 @@ images in the left / right folder must be stored with the same relative order.
 (calling them 0.png, 1.png, ... might be a good idea)'''
 
 print("Starting Calibration")
-c.calibrate()
+#c.calibrate()
 print("Calibration Completed\n")
 
 '''
@@ -34,7 +34,7 @@ print("Starting Remap Procedure")
 
 # TODO: CHECK THAT THESE WORK PROPERLY
 #c.remap_from_capture(count=1, l_camera_port=0, r_camera_port=2)
-c.remap_from_path(path='./results/original')
+c.remap_from_path(path='./remap/captures/')
 
 print("Starting Remap Completed\n")
 
@@ -54,15 +54,15 @@ OUTPUT:
     disparity: matrix with size: input_height * (input_width-cmp_range) * 1
     
 '''
-path_l = 'remap/remapped/left/_bike_l.png'
-path_r = 'remap/remapped/right/_bike_r.png'
-name = 'bike'
-start_time = time.time()
-# disparity = dm.generate_disparity_map(left_path=path_l, right_path=path_r, downsample_n=1)
-print("Starting Disparity Map Calculation")
-disparity = fdm.generate_disparity_map(left_path=path_l, right_path=path_r, name=name, downsample_n=0)
-print("Disparity Map Calculation Ended\n")
-print("--- %s seconds ---" % (time.time() - start_time))
+#path_l = 'remap/remapped/left/000398.jpg'
+#path_r = 'remap/remapped/right/000398.jpg'
+#name = '000398'
+#start_time = time.time()
+## disparity = dm.generate_disparity_map(left_path=path_l, right_path=path_r, downsample_n=1)
+#print("Starting Disparity Map Calculation")
+#disparity = fdm.generate_disparity_map(left_path=path_l, right_path=path_r, name=name, downsample_n=0)
+#print("Disparity Map Calculation Ended\n")
+#print("--- %s seconds ---" % (time.time() - start_time))
 
 '''
 We now generate the depth map using "generate_depth_map" from the RealDepth file

@@ -44,8 +44,8 @@ class CalibrationRectification:
         imgpoints_l = []  # 2d points in image plane.
         imgpoints_r = []  # 2d points in image plane.
 
-        images_l = glob.glob('calibration/original/left/*.png')
-        images_r = glob.glob('calibration/original/right/*.png')
+        images_l = glob.glob('calibration/original/left/*.jpg')
+        images_r = glob.glob('calibration/original/right/*.jpg')
 
         for i in range(len(images_l)):
 
@@ -75,8 +75,8 @@ class CalibrationRectification:
                 # Draw corners and save image
                 img_drawn_l = cv2.drawChessboardCorners(im_l, (9, 6), corners2_l, ret_l)
                 img_drawn_r = cv2.drawChessboardCorners(im_r, (9, 6), corners2_r, ret_r)
-                cv2.imwrite('calibration/drawnCorners/left/' + str(i) + ".png", img_drawn_l)
-                cv2.imwrite('calibration/drawnCorners/right/' + str(i) + ".png", img_drawn_r)
+                cv2.imwrite('calibration/drawnCorners/left/' + str(i) + ".jpg", img_drawn_l)
+                cv2.imwrite('calibration/drawnCorners/right/' + str(i) + ".jpg", img_drawn_r)
 
         cv2.destroyAllWindows()
 
@@ -153,7 +153,7 @@ class CalibrationRectification:
 
         # create unique image corresponding to the alignment of left and right
         aligned = np.hstack((im_l, im_r))
-        cv2.imwrite('./results/undistortedRectified/aligned/' + str(name) + '.png', aligned)
+        cv2.imwrite('./results/undistortedRectified/aligned/' + str(name) + '.jpg', aligned)
 
     def remap(self, left_image, right_image, name):
         # undistorting the images witht the calculated undistortion map
@@ -168,8 +168,8 @@ class CalibrationRectification:
         result_r[:, :, 1] = cv2.remap(right_image[:, :, 1], self.mapx_r, self.mapy_r, cv2.INTER_LINEAR)
         result_r[:, :, 2] = cv2.remap(right_image[:, :, 2], self.mapx_r, self.mapy_r, cv2.INTER_LINEAR)
 
-        cv2.imwrite('./remap/remapped/left/' + str(name) + '.png', result_l)
-        cv2.imwrite('./remap/remapped/right/' + str(name) + '.png', result_r)
+        cv2.imwrite('./remap/remapped/left/' + str(name) + '.jpg', result_l)
+        cv2.imwrite('./remap/remapped/right/' + str(name) + '.jpg', result_r)
 
         self.draw_comparison(result_l, result_r, name)
 
@@ -193,8 +193,8 @@ class CalibrationRectification:
             left_return_value, left_image = left_camera.read()
             right_return_value, right_image = right_camera.read()
 
-            cv2.imwrite('./remap/captures/left/' + str(counter) + '.png', left_image)
-            cv2.imwrite('./remap/captures/right/' + str(counter) + '.png', right_image)
+            cv2.imwrite('./remap/captures/left/' + str(counter) + '.jpg', left_image)
+            cv2.imwrite('./remap/captures/right/' + str(counter) + '.jpg', right_image)
 
             self.remap(left_image, right_image, counter)
 
@@ -202,8 +202,8 @@ class CalibrationRectification:
 
     def remap_from_path(self, path):
 
-        images_l = glob.glob(path + '/left/*.png')
-        images_r = glob.glob(path + '/right/*.png')
+        images_l = glob.glob(path + '/left/*.jpg')
+        images_r = glob.glob(path + '/right/*.jpg')
 
         for i in range(len(images_l)):
 
