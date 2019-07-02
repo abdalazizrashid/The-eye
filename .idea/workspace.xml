@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="63ced3b8-9326-40c2-b2f3-ff65d9645ce8" name="Default Changelist" comment="" />
+    <list default="true" id="63ced3b8-9326-40c2-b2f3-ff65d9645ce8" name="Default Changelist" comment="minor changes">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stereo_depth.py" beforeDir="false" afterPath="$PROJECT_DIR$/stereo_depth.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,31 +14,26 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/calibrate.py">
+        <entry file="file://$PROJECT_DIR$/capture.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+            <state relative-caret-position="60">
+              <caret line="3" column="39" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stereo_depth.py">
+        <entry file="file://$PROJECT_DIR$/calibrate.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="151" selection-start-line="151" selection-end-line="151" />
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
-              </folding>
-            </state>
+            <state relative-caret-position="-4300" />
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/capture.py">
+        <entry file="file://$PROJECT_DIR$/stereo_depth.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-270">
-              <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+            <state relative-caret-position="390">
+              <caret line="97" column="39" selection-start-line="97" selection-start-column="39" selection-end-line="97" selection-end-column="39" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -44,8 +42,14 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/capture/right/chessboards.npz">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/the_eye">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#36#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -110,28 +114,6 @@
               <item name="The_eye" type="b2602c69:ProjectViewProjectNode" />
               <item name="The_eye" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="The_eye" type="b2602c69:ProjectViewProjectNode" />
-              <item name="The_eye" type="462c0819:PsiDirectoryNode" />
-              <item name="capture" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="The_eye" type="b2602c69:ProjectViewProjectNode" />
-              <item name="The_eye" type="462c0819:PsiDirectoryNode" />
-              <item name="capture" type="462c0819:PsiDirectoryNode" />
-              <item name="left" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="The_eye" type="b2602c69:ProjectViewProjectNode" />
-              <item name="The_eye" type="462c0819:PsiDirectoryNode" />
-              <item name="capture" type="462c0819:PsiDirectoryNode" />
-              <item name="right" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="The_eye" type="b2602c69:ProjectViewProjectNode" />
-              <item name="The_eye" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -152,25 +134,55 @@
               <item name="The_eye" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
             </path>
+            <path>
+              <item name="The_eye" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="disparity" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="The_eye" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="remap" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="The_eye" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="remap" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="remapped" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="The_eye" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="results" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="The_eye" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="results" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="undistortedRectified" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
     </panes>
   </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+  </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/path" />
-      <recent name="$PROJECT_DIR$/src" />
-      <recent name="$PROJECT_DIR$/src/calibration/drawnCorners/right/" />
-      <recent name="$PROJECT_DIR$/src/calibration/drawnCorners/left/" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/capture/left" />
       <recent name="$PROJECT_DIR$/images/right" />
       <recent name="$PROJECT_DIR$/images/left" />
       <recent name="$PROJECT_DIR$/images" />
       <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/path" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/calibration/drawnCorners/right/" />
+      <recent name="$PROJECT_DIR$/src/calibration/drawnCorners/left/" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -417,21 +429,21 @@
   <component name="ToolWindowManager">
     <frame x="-1" y="4" width="1922" height="1077" extended-state="0" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49842766" visible="true" weight="0.13863996" />
       <window_info id="Structure" order="1" sideWeight="0.5015723" side_tool="true" weight="0.24986821" />
-      <window_info anchor="bottom" id="Version Control" sideWeight="0.5582499" weight="0.32919255" />
-      <window_info anchor="bottom" id="Python Console" sideWeight="0.49657354" weight="0.32815734" />
-      <window_info active="true" anchor="bottom" id="Terminal" sideWeight="0.4949921" visible="true" weight="0.13457558" />
-      <window_info anchor="bottom" id="Event Log" sideWeight="0.3943068" side_tool="true" weight="0.2536232" />
-      <window_info anchor="bottom" id="Messages" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6056932" weight="0.2536232" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.6056932" visible="true" weight="0.2536232" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49762782" weight="0.39751554" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49973643" weight="0.32919255" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.5582499" weight="0.32919255" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4949921" weight="0.1542443" />
+      <window_info anchor="bottom" id="Python Console" order="9" sideWeight="0.49657354" weight="0.32815734" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.3943068" side_tool="true" weight="0.2536232" />
+      <window_info anchor="bottom" id="Messages" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -468,30 +480,34 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/calibrate.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/capture/right/chessboards.npz">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/stereo_depth.py">
+    <entry file="file://$PROJECT_DIR$/capture.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="39" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/calibrate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4300" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/the_eye">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret line="151" selection-start-line="151" selection-end-line="151" />
           <folding>
-            <element signature="e#0#10#0" expanded="true" />
+            <element signature="e#0#36#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/capture.py">
+    <entry file="file://$PROJECT_DIR$/stereo_depth.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-270">
-          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+        <state relative-caret-position="390">
+          <caret line="97" column="39" selection-start-line="97" selection-start-column="39" selection-end-line="97" selection-end-column="39" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>

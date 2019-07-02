@@ -25,7 +25,7 @@ CAMERA_HEIGHT = 720
 
 # TODO: Use more stable identifiers
 left = cv2.VideoCapture(4)
-right = cv2.VideoCapture(8)
+right = cv2.VideoCapture(6)
 
 # Increase the resolution
 left.set(cv2.CAP_PROP_FRAME_WIDTH, CAMERA_WIDTH)
@@ -94,6 +94,8 @@ while(True):
 
     fixedLeft = cv2.remap(leftFrame, leftMapX, leftMapY, REMAP_INTERPOLATION)
     fixedRight = cv2.remap(rightFrame, rightMapX, rightMapY, REMAP_INTERPOLATION)
+    cv2.imwrite('left.jpg', fixedLeft)
+    cv2.imwrite('right.jpg', fixedRight)
 
     grayLeft = cv2.cvtColor(fixedLeft, cv2.COLOR_BGR2GRAY)
     grayRight = cv2.cvtColor(fixedRight, cv2.COLOR_BGR2GRAY)
