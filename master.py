@@ -33,7 +33,7 @@ from_camera parameters:
 print("Starting Remap Procedure")
 
 # TODO: CHECK THAT THESE WORK PROPERLY
-#c.remap_from_capture(count=1, l_camera_port=0, r_camera_port=2)
+c.remap_from_capture(count=12, l_camera_port=4, r_camera_port=6)
 #c.remap_from_path(path='./remap/captures/')
 
 print("Starting Remap Completed\n")
@@ -60,7 +60,7 @@ name = '0003985'
 start_time = time.time()
 # disparity = dm.generate_disparity_map(left_path=path_l, right_path=path_r, downsample_n=1)
 print("Starting Disparity Map Calculation")
-disparity = fdm.generate_disparity_map(left_path=path_l, right_path=path_r, name=name, downsample_n=0)
+#disparity = fdm.generate_disparity_map(left_path=path_l, right_path=path_r, name=name, downsample_n=0)
 print("Disparity Map Calculation Ended\n")
 print("--- %s seconds ---" % (time.time() - start_time))
 
@@ -71,15 +71,15 @@ disparities outputted from that class
 '''
 path = './disparity/heatmap/0003985.png'
 print("Starting Depth Map Calculation")
-model3D_matrix = rd.generate_depth_map(disparity, path)
+#model3D_matrix = rd.generate_depth_map(disparity, path)
 print("Depth Map Calculation completed\n")
 
 print("Starting Conversion to PLY")
-rd.convert_to_ply(disparity=disparity,model_3d=model3D_matrix, name=name, image_path=path, cmp_range=70)
+#rd.convert_to_ply(disparity=disparity,model_3d=model3D_matrix, name=name, image_path=path, cmp_range=70)
 print("Conversion to PLY Completed\n")
 
 print("Starting Model Visualization")
-rd.visualize_model('ply/' + str(name) + '.ply')
+#rd.visualize_model('ply/' + str(name) + '.ply')
 
 
 

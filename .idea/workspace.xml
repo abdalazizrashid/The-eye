@@ -2,12 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63ced3b8-9326-40c2-b2f3-ff65d9645ce8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/remap/remapped/left/bike_l.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/remap/remapped/right/_bike_r.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/remap/captures/left/library1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/remap/captures/right/library1_r.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CaptureChessboardImages.py" beforeDir="false" afterPath="$PROJECT_DIR$/CaptureChessboardImages.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RealDepth.py" beforeDir="false" afterPath="$PROJECT_DIR$/RealDepth.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CalibrationRectification.py" beforeDir="false" afterPath="$PROJECT_DIR$/CalibrationRectification.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/master.py" beforeDir="false" afterPath="$PROJECT_DIR$/master.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/remap/captures/left/000398.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/remap/captures/right/000398.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/remap/remapped/left/bike_l.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/remap/remapped/left/bike_l.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/remap/remapped/left/left.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/remap/remapped/right/_bike_r.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/remap/remapped/right/_bike_r.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/remap/remapped/right/right.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/cv2/.libs/libQtCore-3dbacd8a.so.4.8.7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/cv2/.libs/libQtGui-6d0f14dd.so.4.8.7" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/cv2/.libs/libQtGui-6d0f14dd.so.4.8.7" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/cv2/.libs/libQtTest-1183da5d.so.4.8.7" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/cv2/.libs/libQtTest-1183da5d.so.4.8.7" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/cv2/.libs/libavcodec-874f3d51.so.58.47.106" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/cv2/.libs/libavformat-fb41c63f.so.58.26.101" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/cv2/.libs/libavutil-473e9eb1.so.56.26.100" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/cv2/.libs/libswresample-a49c020a.so.3.4.100" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/cv2/.libs/libswscale-4e6f4703.so.5.4.100" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/cv2/.libs/libvpx-8459aeef.so.6.0.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/cv2/cv2.cpython-37m-x86_64-linux-gnu.so" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/cv2/cv2.cpython-37m-x86_64-linux-gnu.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/opencv_python-4.1.0.25.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/opencv_python-4.1.0.25.dist-info/METADATA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/opencv_python-4.1.0.25.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/opencv_python-4.1.0.25.dist-info/WHEEL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/opencv_python-4.1.0.25.dist-info/top_level.txt" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,62 +38,65 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/master.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="12" column="2" selection-start-line="12" selection-end-line="12" selection-end-column="55" />
-              <folding>
-                <element signature="e#0#31#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CalibrationRectification.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="32" column="17" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="17" />
-              <folding>
-                <element signature="e#122#634#0" />
-                <element signature="e#7378#7811#0" />
-                <element signature="e#7873#9016#0" />
-                <element signature="e#9098#9944#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CaptureChessboardImages.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1200">
-              <caret line="41" column="85" selection-start-line="41" selection-start-column="85" selection-end-line="41" selection-end-column="85" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/disparity/heatmap/0003985.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/RealDepth.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1830">
-              <caret line="152" selection-start-line="152" selection-end-line="152" />
-              <folding>
-                <element signature="e#184#3186#0" />
-                <element signature="e#3329#3893#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.4651163">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/master.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="510">
+                  <caret line="38" selection-start-line="38" selection-end-line="38" />
+                  <folding>
+                    <element signature="e#0#31#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="290">
+                  <caret line="1734" selection-start-line="1734" selection-end-line="1734" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/CalibrationRectification.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-262">
+                  <caret line="174" selection-start-line="174" selection-end-line="174" />
+                  <folding>
+                    <element signature="e#122#634#0" />
+                    <element signature="e#670#7319#0" />
+                    <element signature="e#7378#7811#0" />
+                    <element signature="e#7873#9016#0" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/CalibrationRectification.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="363">
+                  <caret line="194" column="41" selection-start-line="194" selection-start-column="41" selection-end-line="194" selection-end-column="41" />
+                  <folding>
+                    <element signature="e#122#634#0" />
+                    <element signature="e#670#7319#0" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -117,10 +142,10 @@
         <option value="$PROJECT_DIR$/stereo_depth.py" />
         <option value="$PROJECT_DIR$/capture.py" />
         <option value="$PROJECT_DIR$/FastDP.py" />
-        <option value="$PROJECT_DIR$/CalibrationRectification.py" />
         <option value="$PROJECT_DIR$/RealDepth.py" />
-        <option value="$PROJECT_DIR$/master.py" />
         <option value="$PROJECT_DIR$/CaptureChessboardImages.py" />
+        <option value="$PROJECT_DIR$/master.py" />
+        <option value="$PROJECT_DIR$/CalibrationRectification.py" />
       </list>
     </option>
   </component>
@@ -134,7 +159,7 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
@@ -144,6 +169,69 @@
             <path>
               <item name="The_eye" type="b2602c69:ProjectViewProjectNode" />
               <item name="The_eye" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="The_eye" type="b2602c69:ProjectViewProjectNode" />
+              <item name="The_eye" type="462c0819:PsiDirectoryNode" />
+              <item name="remap" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="The_eye" type="b2602c69:ProjectViewProjectNode" />
+              <item name="The_eye" type="462c0819:PsiDirectoryNode" />
+              <item name="remap" type="462c0819:PsiDirectoryNode" />
+              <item name="captures" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="The_eye" type="b2602c69:ProjectViewProjectNode" />
+              <item name="The_eye" type="462c0819:PsiDirectoryNode" />
+              <item name="remap" type="462c0819:PsiDirectoryNode" />
+              <item name="captures" type="462c0819:PsiDirectoryNode" />
+              <item name="left" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="The_eye" type="b2602c69:ProjectViewProjectNode" />
+              <item name="The_eye" type="462c0819:PsiDirectoryNode" />
+              <item name="remap" type="462c0819:PsiDirectoryNode" />
+              <item name="captures" type="462c0819:PsiDirectoryNode" />
+              <item name="right" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="The_eye" type="b2602c69:ProjectViewProjectNode" />
+              <item name="The_eye" type="462c0819:PsiDirectoryNode" />
+              <item name="remap" type="462c0819:PsiDirectoryNode" />
+              <item name="remapped" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="The_eye" type="b2602c69:ProjectViewProjectNode" />
+              <item name="The_eye" type="462c0819:PsiDirectoryNode" />
+              <item name="remap" type="462c0819:PsiDirectoryNode" />
+              <item name="remapped" type="462c0819:PsiDirectoryNode" />
+              <item name="left" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="The_eye" type="b2602c69:ProjectViewProjectNode" />
+              <item name="The_eye" type="462c0819:PsiDirectoryNode" />
+              <item name="remap" type="462c0819:PsiDirectoryNode" />
+              <item name="remapped" type="462c0819:PsiDirectoryNode" />
+              <item name="right" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="The_eye" type="b2602c69:ProjectViewProjectNode" />
+              <item name="The_eye" type="462c0819:PsiDirectoryNode" />
+              <item name="results" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="The_eye" type="b2602c69:ProjectViewProjectNode" />
+              <item name="The_eye" type="462c0819:PsiDirectoryNode" />
+              <item name="results" type="462c0819:PsiDirectoryNode" />
+              <item name="undistortedRectified" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="The_eye" type="b2602c69:ProjectViewProjectNode" />
+              <item name="The_eye" type="462c0819:PsiDirectoryNode" />
+              <item name="results" type="462c0819:PsiDirectoryNode" />
+              <item name="undistortedRectified" type="462c0819:PsiDirectoryNode" />
+              <item name="aligned" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -226,20 +314,6 @@
             <path>
               <item name="The_eye" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="remap" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="remapped" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="left" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="The_eye" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="remap" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="remapped" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="right" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="The_eye" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
               <item name="results" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
@@ -252,6 +326,12 @@
               <item name="The_eye" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
               <item name="sampleRectified" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="The_eye" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="sampleRectified" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="right" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
@@ -274,10 +354,10 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/remap/remapped/right" />
-      <recent name="$PROJECT_DIR$/remap/remapped/left" />
       <recent name="$PROJECT_DIR$/remap/captures/right" />
       <recent name="$PROJECT_DIR$/remap/captures/left" />
+      <recent name="$PROJECT_DIR$/remap/remapped/right" />
+      <recent name="$PROJECT_DIR$/remap/remapped/left" />
       <recent name="$PROJECT_DIR$/calibration/original/right" />
     </key>
   </component>
@@ -519,7 +599,14 @@
       <option name="project" value="LOCAL" />
       <updated>1562093649099</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="adding directories">
+      <created>1562112712447</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1562112712447</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TodoView" selected-index="5">
@@ -533,20 +620,21 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="4" width="1922" height="1077" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49842766" visible="true" weight="0.13863996" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49842766" visible="true" weight="0.13863996" />
       <window_info id="Structure" order="1" sideWeight="0.5015723" side_tool="true" weight="0.24986821" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32919255" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6056932" weight="0.22567287" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49762782" weight="0.39751554" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49762782" visible="true" weight="0.23291926" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49973643" weight="0.32919255" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.5582499" weight="0.32919255" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4949921" weight="0.1542443" />
-      <window_info active="true" anchor="bottom" id="Python Console" order="9" sideWeight="0.49657354" visible="true" weight="0.32712215" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4949921" weight="0.28778467" />
+      <window_info anchor="bottom" id="Python Console" order="9" sideWeight="0.49657354" weight="0.32712215" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.3943068" side_tool="true" weight="0.2536232" />
       <window_info anchor="bottom" id="Messages" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -590,8 +678,8 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/master.py</url>
-          <line>32</line>
-          <option name="timeStamp" value="20" />
+          <line>38</line>
+          <option name="timeStamp" value="21" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -604,76 +692,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/capture/left/chessboards.npz" />
-    <entry file="file://$PROJECT_DIR$/src/path/right1.jpg" />
-    <entry file="file://$PROJECT_DIR$/.idea/The_eye.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/left/10.jpg" />
-    <entry file="file://$PROJECT_DIR$/src/path/left1.jpg" />
-    <entry file="file://$PROJECT_DIR$/images/right/4.jpg" />
-    <entry file="file://$PROJECT_DIR$/src/calibration/drawnCorners/left/0.png" />
-    <entry file="file://$PROJECT_DIR$/capture/right/chessboards.npz" />
-    <entry file="file://$PROJECT_DIR$/images/left/2.jpg" />
-    <entry file="file://$PROJECT_DIR$/stereo_depth.py" />
-    <entry file="file://$USER_HOME$/.PyCharmCE2018.3/system/python_stubs/1060874045/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3482">
-          <caret line="215" lean-forward="true" selection-start-line="215" selection-end-line="215" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Preprocessing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3824" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SimpleDisparityMap.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SubDisparityMap.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DPDisparityMap.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/calibration/original/left/39.png" />
-    <entry file="file://$PROJECT_DIR$/calibration/original/left/19.png" />
-    <entry file="file://$PROJECT_DIR$/calibration/original/left/14.png" />
-    <entry file="file://$PROJECT_DIR$/calibration/original/left/4.png" />
-    <entry file="file://$PROJECT_DIR$/calibration/original/right/chessboards.npz">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/calibration/original/left/chessboards.npz">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/calibrate.py" />
-    <entry file="file://$PROJECT_DIR$/calibration/original/left/000020.jpg" />
-    <entry file="file://$PROJECT_DIR$/calibration/drawnCorners/right/288.jpg" />
-    <entry file="file://$PROJECT_DIR$/calibration/drawnCorners/left/307.jpg" />
-    <entry file="file://$PROJECT_DIR$/calibration/drawnCorners/left/288.jpg" />
-    <entry file="file://$PROJECT_DIR$/calibration/drawnCorners/left/32.jpg" />
-    <entry file="file://$PROJECT_DIR$/calibration/original/left/2.png" />
-    <entry file="file://$PROJECT_DIR$/calibration/original/left/000398.jpg" />
-    <entry file="file://$PROJECT_DIR$/capture.py" />
-    <entry file="file://$PROJECT_DIR$/remap/captures/right/000398.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/remap/captures/left/000398.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/FastDP.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="674">
@@ -685,9 +703,6 @@
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/right.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/remap/remapped/left/left.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/sampleRectified/left/_bike_l.png">
@@ -708,9 +723,6 @@
     <entry file="file://$PROJECT_DIR$/disparity/heatmap/000398.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/disparity/heatmap/0003985.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/sampleHeatmaps/pool1.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -720,32 +732,8 @@
     <entry file="file://$PROJECT_DIR$/sampleHeatmaps/bike.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/RealDepth.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1830">
-          <caret line="152" selection-start-line="152" selection-end-line="152" />
-          <folding>
-            <element signature="e#184#3186#0" />
-            <element signature="e#3329#3893#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/calibration/original/right/1.jpg">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CalibrationRectification.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="32" column="17" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="17" />
-          <folding>
-            <element signature="e#122#634#0" />
-            <element signature="e#7378#7811#0" />
-            <element signature="e#7873#9016#0" />
-            <element signature="e#9098#9944#0" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CaptureChessboardImages.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -754,10 +742,140 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/calibration/drawnCorners/left/35.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/disparity/heatmap/0003985.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/calibration/drawnCorners/right/35.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/calibration/drawnCorners/left/7.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RealDepth.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="565">
+          <caret line="152" selection-start-line="152" selection-end-line="152" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/remap/remapped/left/left.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/remap/remapped/right/z.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/remap/captures/left/0.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/remap/remapped/left/z.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/results/undistortedRectified/aligned/z.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/remap/remapped/left/h.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/results/undistortedRectified/aligned/h.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/results/undistortedRectified/aligned/n.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/results/undistortedRectified/aligned/ssss.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/remap/remapped/left/ssss.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/remap/remapped/left/n.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/results/undistortedRectified/aligned/v.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/remap/remapped/right/v.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/remap/remapped/left/v.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/results/undistortedRectified/aligned/jjj.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/results/undistortedRectified/aligned/jj.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/results/undistortedRectified/aligned/baby.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/remap/remapped/left/baby.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/remap/remapped/right/baby.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CalibrationRectification.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-262">
+          <caret line="174" selection-start-line="174" selection-end-line="174" />
+          <folding>
+            <element signature="e#122#634#0" />
+            <element signature="e#670#7319#0" />
+            <element signature="e#7378#7811#0" />
+            <element signature="e#7873#9016#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="1734" selection-start-line="1734" selection-end-line="1734" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/results/undistortedRectified/aligned/0.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/remap/remapped/right/0.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/remap/remapped/left/0.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/remap/captures/right/10.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/remap/remapped/left/11.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/remap/remapped/right/11.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/remap/captures/right/11.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/results/undistortedRectified/aligned/11.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/remap/captures/left/11.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/master.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="12" column="2" selection-start-line="12" selection-end-line="12" selection-end-column="55" />
+        <state relative-caret-position="510">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>

@@ -168,8 +168,11 @@ class CalibrationRectification:
         result_r[:, :, 1] = cv2.remap(right_image[:, :, 1], self.mapx_r, self.mapy_r, cv2.INTER_LINEAR)
         result_r[:, :, 2] = cv2.remap(right_image[:, :, 2], self.mapx_r, self.mapy_r, cv2.INTER_LINEAR)
 
+        result_l = left_image
+        result_r = right_image
         cv2.imwrite('./remap/remapped/left/' + str(name) + '.jpg', result_l)
         cv2.imwrite('./remap/remapped/right/' + str(name) + '.jpg', result_r)
+
 
         self.draw_comparison(result_l, result_r, name)
 
@@ -226,6 +229,8 @@ class CalibrationRectification:
             '''
 
             self.remap(im_l, im_r, i)
+
+
 
 
 
