@@ -2,34 +2,68 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63ced3b8-9326-40c2-b2f3-ff65d9645ce8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/remap/captures/left/library1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/remap/captures/right/library1_r.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CalibrationRectification.py" beforeDir="false" afterPath="$PROJECT_DIR$/CalibrationRectification.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/master.py" beforeDir="false" afterPath="$PROJECT_DIR$/master.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/remap/captures/left/000398.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/remap/captures/right/000398.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/remap/remapped/left/bike_l.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/remap/remapped/left/bike_l.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/remap/remapped/left/left.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/remap/remapped/right/_bike_r.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/remap/remapped/right/_bike_r.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/remap/remapped/right/right.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/cv2/.libs/libQtCore-3dbacd8a.so.4.8.7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/cv2/.libs/libQtGui-6d0f14dd.so.4.8.7" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/cv2/.libs/libQtGui-6d0f14dd.so.4.8.7" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/cv2/.libs/libQtTest-1183da5d.so.4.8.7" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/cv2/.libs/libQtTest-1183da5d.so.4.8.7" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/cv2/.libs/libavcodec-874f3d51.so.58.47.106" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/cv2/.libs/libavformat-fb41c63f.so.58.26.101" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/cv2/.libs/libavutil-473e9eb1.so.56.26.100" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/cv2/.libs/libswresample-a49c020a.so.3.4.100" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/cv2/.libs/libswscale-4e6f4703.so.5.4.100" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/cv2/.libs/libvpx-8459aeef.so.6.0.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/cv2/cv2.cpython-37m-x86_64-linux-gnu.so" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/cv2/cv2.cpython-37m-x86_64-linux-gnu.so" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/opencv_python-4.1.0.25.dist-info/INSTALLER" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/opencv_python-4.1.0.25.dist-info/METADATA" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/opencv_python-4.1.0.25.dist-info/RECORD" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/opencv_python-4.1.0.25.dist-info/WHEEL" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.7/site-packages/opencv_python-4.1.0.25.dist-info/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/remap/captures/left/0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/remap/captures/left/0.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/remap/captures/left/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/remap/captures/left/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/remap/captures/left/10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/remap/captures/left/10.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/remap/captures/left/11.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/remap/captures/left/11.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/remap/captures/left/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/remap/captures/left/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/remap/captures/left/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/remap/captures/left/3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/remap/captures/left/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/remap/captures/left/4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/remap/captures/left/5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/remap/captures/left/5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/remap/captures/left/6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/remap/captures/left/6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/remap/captures/left/7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/remap/captures/left/7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/remap/captures/left/8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/remap/captures/left/8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/remap/captures/left/9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/remap/captures/left/9.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/remap/captures/right/0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/remap/captures/right/0.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/remap/captures/right/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/remap/captures/right/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/remap/captures/right/10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/remap/captures/right/10.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/remap/captures/right/11.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/remap/captures/right/11.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/remap/captures/right/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/remap/captures/right/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/remap/captures/right/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/remap/captures/right/3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/remap/captures/right/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/remap/captures/right/4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/remap/captures/right/5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/remap/captures/right/5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/remap/captures/right/6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/remap/captures/right/6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/remap/captures/right/7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/remap/captures/right/7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/remap/captures/right/8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/remap/captures/right/8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/remap/captures/right/9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/remap/captures/right/9.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/remap/remapped/left/0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/remap/remapped/left/0.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/remap/remapped/left/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/remap/remapped/left/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/remap/remapped/left/10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/remap/remapped/left/10.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/remap/remapped/left/11.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/remap/remapped/left/11.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/remap/remapped/left/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/remap/remapped/left/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/remap/remapped/left/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/remap/remapped/left/3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/remap/remapped/left/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/remap/remapped/left/4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/remap/remapped/left/5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/remap/remapped/left/5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/remap/remapped/left/6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/remap/remapped/left/6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/remap/remapped/left/7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/remap/remapped/left/7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/remap/remapped/left/8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/remap/remapped/left/8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/remap/remapped/left/9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/remap/remapped/left/9.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/remap/remapped/right/0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/remap/remapped/right/0.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/remap/remapped/right/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/remap/remapped/right/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/remap/remapped/right/10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/remap/remapped/right/10.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/remap/remapped/right/11.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/remap/remapped/right/11.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/remap/remapped/right/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/remap/remapped/right/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/remap/remapped/right/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/remap/remapped/right/3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/remap/remapped/right/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/remap/remapped/right/4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/remap/remapped/right/5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/remap/remapped/right/5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/remap/remapped/right/6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/remap/remapped/right/6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/remap/remapped/right/7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/remap/remapped/right/7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/remap/remapped/right/8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/remap/remapped/right/8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/remap/remapped/right/9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/remap/remapped/right/9.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/undistortedRectified/aligned/0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/results/undistortedRectified/aligned/0.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/undistortedRectified/aligned/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/results/undistortedRectified/aligned/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/undistortedRectified/aligned/10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/results/undistortedRectified/aligned/10.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/undistortedRectified/aligned/11.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/results/undistortedRectified/aligned/11.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/undistortedRectified/aligned/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/results/undistortedRectified/aligned/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/undistortedRectified/aligned/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/results/undistortedRectified/aligned/3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/undistortedRectified/aligned/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/results/undistortedRectified/aligned/4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/undistortedRectified/aligned/5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/results/undistortedRectified/aligned/5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/undistortedRectified/aligned/6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/results/undistortedRectified/aligned/6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/undistortedRectified/aligned/7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/results/undistortedRectified/aligned/7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/undistortedRectified/aligned/8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/results/undistortedRectified/aligned/8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/undistortedRectified/aligned/9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/results/undistortedRectified/aligned/9.jpg" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,65 +72,63 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.4651163">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/master.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="510">
-                  <caret line="38" selection-start-line="38" selection-end-line="38" />
-                  <folding>
-                    <element signature="e#0#31#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="290">
-                  <caret line="1734" selection-start-line="1734" selection-end-line="1734" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/CalibrationRectification.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-262">
-                  <caret line="174" selection-start-line="174" selection-end-line="174" />
-                  <folding>
-                    <element signature="e#122#634#0" />
-                    <element signature="e#670#7319#0" />
-                    <element signature="e#7378#7811#0" />
-                    <element signature="e#7873#9016#0" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/CalibrationRectification.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="363">
-                  <caret line="194" column="41" selection-start-line="194" selection-start-column="41" selection-end-line="194" selection-end-column="41" />
-                  <folding>
-                    <element signature="e#122#634#0" />
-                    <element signature="e#670#7319#0" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/master.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="191">
+              <caret line="62" column="101" selection-start-line="62" selection-start-column="101" selection-end-line="62" selection-end-column="101" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/disparity/heatmap/me.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/results/undistortedRectified/aligned/11.jpg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/remap/remapped/right/11.jpg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/remap/remapped/left/11.jpg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RealDepth.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="71">
+              <caret line="102" column="38" selection-start-line="102" selection-start-column="30" selection-end-line="102" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CalibrationRectification.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-832">
+              <caret line="174" selection-start-line="174" selection-end-line="174" />
+              <folding>
+                <element signature="e#122#634#0" />
+                <element signature="e#670#7319#0" />
+                <element signature="e#7378#7811#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -142,10 +174,10 @@
         <option value="$PROJECT_DIR$/stereo_depth.py" />
         <option value="$PROJECT_DIR$/capture.py" />
         <option value="$PROJECT_DIR$/FastDP.py" />
-        <option value="$PROJECT_DIR$/RealDepth.py" />
         <option value="$PROJECT_DIR$/CaptureChessboardImages.py" />
-        <option value="$PROJECT_DIR$/master.py" />
         <option value="$PROJECT_DIR$/CalibrationRectification.py" />
+        <option value="$PROJECT_DIR$/RealDepth.py" />
+        <option value="$PROJECT_DIR$/master.py" />
       </list>
     </option>
   </component>
@@ -173,27 +205,23 @@
             <path>
               <item name="The_eye" type="b2602c69:ProjectViewProjectNode" />
               <item name="The_eye" type="462c0819:PsiDirectoryNode" />
-              <item name="remap" type="462c0819:PsiDirectoryNode" />
+              <item name="disparity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="The_eye" type="b2602c69:ProjectViewProjectNode" />
+              <item name="The_eye" type="462c0819:PsiDirectoryNode" />
+              <item name="disparity" type="462c0819:PsiDirectoryNode" />
+              <item name="heatmap" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="The_eye" type="b2602c69:ProjectViewProjectNode" />
+              <item name="The_eye" type="462c0819:PsiDirectoryNode" />
+              <item name="ply" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="The_eye" type="b2602c69:ProjectViewProjectNode" />
               <item name="The_eye" type="462c0819:PsiDirectoryNode" />
               <item name="remap" type="462c0819:PsiDirectoryNode" />
-              <item name="captures" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="The_eye" type="b2602c69:ProjectViewProjectNode" />
-              <item name="The_eye" type="462c0819:PsiDirectoryNode" />
-              <item name="remap" type="462c0819:PsiDirectoryNode" />
-              <item name="captures" type="462c0819:PsiDirectoryNode" />
-              <item name="left" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="The_eye" type="b2602c69:ProjectViewProjectNode" />
-              <item name="The_eye" type="462c0819:PsiDirectoryNode" />
-              <item name="remap" type="462c0819:PsiDirectoryNode" />
-              <item name="captures" type="462c0819:PsiDirectoryNode" />
-              <item name="right" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="The_eye" type="b2602c69:ProjectViewProjectNode" />
@@ -606,7 +634,14 @@
       <option name="project" value="LOCAL" />
       <updated>1562112712447</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="fixing remapping">
+      <created>1562119484891</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1562119484891</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TodoView" selected-index="5">
@@ -622,13 +657,13 @@
     <frame x="-1" y="4" width="1922" height="1077" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49842766" visible="true" weight="0.13863996" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49842766" visible="true" weight="0.13863996" />
       <window_info id="Structure" order="1" sideWeight="0.5015723" side_tool="true" weight="0.24986821" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32919255" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6056932" weight="0.22567287" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49762782" visible="true" weight="0.23291926" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.6056932" visible="true" weight="0.22567287" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49762782" weight="0.23291926" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49973643" weight="0.32919255" />
@@ -671,7 +706,8 @@
     <MESSAGE value="adding filter &amp; SGBM" />
     <MESSAGE value="default" />
     <MESSAGE value="adding directories" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding directories" />
+    <MESSAGE value="fixing remapping" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixing remapping" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -679,7 +715,7 @@
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/master.py</url>
           <line>38</line>
-          <option name="timeStamp" value="21" />
+          <option name="timeStamp" value="22" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -692,34 +728,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/FastDP.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="674">
-          <caret line="31" column="37" lean-forward="true" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/left.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/right.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sampleRectified/left/_bike_l.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sampleRectified/right/.__bike_r.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/remap/remapped/right/_bike_r.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sampleRectified/right/_bike_r.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/remap/remapped/right/_bike_r.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/disparity/heatmap/000398.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -753,13 +761,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/calibration/drawnCorners/left/7.jpg">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RealDepth.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="565">
-          <caret line="152" selection-start-line="152" selection-end-line="152" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/remap/remapped/left/left.jpg">
       <provider selected="true" editor-type-id="images" />
@@ -825,26 +826,6 @@
     <entry file="file://$PROJECT_DIR$/remap/remapped/right/baby.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/CalibrationRectification.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-262">
-          <caret line="174" selection-start-line="174" selection-end-line="174" />
-          <folding>
-            <element signature="e#122#634#0" />
-            <element signature="e#670#7319#0" />
-            <element signature="e#7378#7811#0" />
-            <element signature="e#7873#9016#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="1734" selection-start-line="1734" selection-end-line="1734" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/results/undistortedRectified/aligned/0.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -857,30 +838,82 @@
     <entry file="file://$PROJECT_DIR$/remap/captures/right/10.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/remap/remapped/left/11.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/remap/remapped/right/11.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/remap/captures/right/11.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/results/undistortedRectified/aligned/11.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/remap/captures/left/11.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="1734" selection-start-line="1734" selection-end-line="1734" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ply/111.ply">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8156882" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/remap/remapped/left/6.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/remap/remapped/right/6.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/disparity/heatmap/11.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CalibrationRectification.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-832">
+          <caret line="174" selection-start-line="174" selection-end-line="174" />
+          <folding>
+            <element signature="e#122#634#0" />
+            <element signature="e#670#7319#0" />
+            <element signature="e#7378#7811#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/remap/remapped/left/8.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RealDepth.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="102" column="38" selection-start-line="102" selection-start-column="30" selection-end-line="102" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/disparity/heatmap/111.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/remap/remapped/right/11.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/remap/remapped/left/10.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/remap/remapped/left/11.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/master.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        <state relative-caret-position="191">
+          <caret line="62" column="101" selection-start-line="62" selection-start-column="101" selection-end-line="62" selection-end-column="101" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/results/undistortedRectified/aligned/11.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/disparity/heatmap/me.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
   </component>
 </project>
