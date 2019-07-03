@@ -18,7 +18,7 @@ images in the left / right folder must be stored with the same relative order.
 (calling them 0.png, 1.png, ... might be a good idea)'''
 
 print("Starting Calibration")
-#c.calibrate()
+c.calibrate()
 print("Calibration Completed\n")
 
 '''
@@ -34,7 +34,7 @@ print("Starting Remap Procedure")
 
 # TODO: CHECK THAT THESE WORK PROPERLY
 #c.remap_from_capture(count=1, l_camera_port=0, r_camera_port=2)
-c.remap_from_path(path='./remap/captures/')
+#c.remap_from_path(path='./remap/captures/')
 
 print("Starting Remap Completed\n")
 
@@ -54,32 +54,32 @@ OUTPUT:
     disparity: matrix with size: input_height * (input_width-cmp_range) * 1
     
 '''
-#path_l = 'remap/remapped/left/000398.jpg'
-#path_r = 'remap/remapped/right/000398.jpg'
-#name = '000398'
-#start_time = time.time()
-## disparity = dm.generate_disparity_map(left_path=path_l, right_path=path_r, downsample_n=1)
-#print("Starting Disparity Map Calculation")
-#disparity = fdm.generate_disparity_map(left_path=path_l, right_path=path_r, name=name, downsample_n=0)
-#print("Disparity Map Calculation Ended\n")
-#print("--- %s seconds ---" % (time.time() - start_time))
+path_l = 'remap/remapped/left/bike_l.jpg'
+path_r = 'remap/remapped/right/_bike_r.jpg'
+name = '0003985'
+start_time = time.time()
+# disparity = dm.generate_disparity_map(left_path=path_l, right_path=path_r, downsample_n=1)
+print("Starting Disparity Map Calculation")
+disparity = fdm.generate_disparity_map(left_path=path_l, right_path=path_r, name=name, downsample_n=0)
+print("Disparity Map Calculation Ended\n")
+print("--- %s seconds ---" % (time.time() - start_time))
 
 '''
 We now generate the depth map using "generate_depth_map" from the RealDepth file
 NOTE: RealDepth has been parametrized to deal with SubDisparityMap output and will only work with 
 disparities outputted from that class
 '''
-
+path = './disparity/heatmap/0003985.png'
 print("Starting Depth Map Calculation")
-#model3D_matrix = rd.generate_depth_map(disparity)
+model3D_matrix = rd.generate_depth_map(disparity, path)
 print("Depth Map Calculation completed\n")
 
 print("Starting Conversion to PLY")
-#rd.convert_to_ply(disparity=disparity, name=name, image_path=path_r, cmp_range=70)
+rd.convert_to_ply(disparity=disparity,model_3d=model3D_matrix, name=name, image_path=path, cmp_range=70)
 print("Conversion to PLY Completed\n")
 
 print("Starting Model Visualization")
-#rd.visualize_model('ply/' + str(name) + '.ply')
+rd.visualize_model('ply/' + str(name) + '.ply')
 
 
 

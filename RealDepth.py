@@ -11,7 +11,7 @@ def generate_depth_map(disparity_matrix, image_path, cmp_range=70, percent=15):
     # reading image
     image = cv2.imread(os.path.join(image_path))
 
-    original_height, original_width = image.shape
+    original_height, original_width, none = image.shape
 
     rows = disparity_matrix.shape[0]
     cols = disparity_matrix.shape[1]

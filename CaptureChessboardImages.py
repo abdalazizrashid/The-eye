@@ -17,9 +17,9 @@ time.sleep(0)
 # chessboard image capturing cycle
 while chessboardCaptured != MAX_FRAMES_CHECKBOARD:
 
-    #cv2.waitKey(0.01)
+    cv2.waitKey(100)
     print('STAND STILL')
-    #cv2.waitKey(0.01)
+    cv2.waitKey(100)
 
     # Capturing image from camera
     left_return_value, leftImage = left_camera.read()
@@ -38,10 +38,10 @@ while chessboardCaptured != MAX_FRAMES_CHECKBOARD:
     # only save images where the chessboard was found
     if left_ret and rightRet:
 
-        cv2.imwrite("./calibration/left/" + str(chessboardCaptured) + ".png", leftImage)
-        cv2.imwrite("./calibration/right/" + str(chessboardCaptured) + ".png", rightImage)
+        cv2.imwrite("./calibration/original/left/" + str(chessboardCaptured) + ".jpg", leftImage)
+        cv2.imwrite("./calibration/original/right/" + str(chessboardCaptured) + ".jpg", rightImage)
 
-        #cv2.waitKey(0.01)
+        cv2.waitKey(500)
         chessboardCaptured = chessboardCaptured + 1
         print("OK, " + str(MAX_FRAMES_CHECKBOARD - chessboardCaptured) + " more images needed")
     else:
