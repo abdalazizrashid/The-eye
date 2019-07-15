@@ -4,7 +4,7 @@ import numpy as np
 
 ## [capture]
 
-capture1 = cv.VideoCapture(6)
+capture1 = cv.VideoCapture(2)
 capture2 = cv.VideoCapture(4)
 
 if (not capture1.isOpened) and (not capture2.isOpened):
